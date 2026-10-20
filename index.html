@@ -1,8 +1,109 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#10151c"><meta name="description" content="Kathryn Yi — 3D, visual effects, digital production, and creative technology."><title>Kathryn Yi — Creative Portfolio</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
-<body><div class="texture" aria-hidden="true"></div><header><a class="logo" href="#">KY<span>.</span></a><nav><a href="#work">Work</a><a href="#about">About</a><a href="mailto:hello@example.com">Contact</a></nav></header>
-<main><section class="hero"><p class="eyebrow">CREATIVE PORTFOLIO · 2026</p><h1>Making things<br><span>feel like something.</span></h1><p class="sub">3D · Visual effects · Digital experiences</p><a class="link" href="#work">Explore selected work <span>↘</span></a></section>
-<section id="work" class="work"><div class="heading"><div><p class="eyebrow">A FEW THINGS I'VE MADE</p><h2>Selected work</h2></div><p class="note">A small collection of experiments<br>and finished projects.</p></div><div id="project-grid" class="grid"></div></section>
-<section id="about" class="about"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Creative by nature.<br><span>Curious by default.</span></h2><p>I’m Kathryn, a visual storyteller interested in 3D, visual effects, digital production, and the places where creativity meets technology. This space is a work in progress.</p><a class="link" href="mailto:hello@example.com">Get in touch <span>↗</span></a></section></main>
-<footer><span>© <span id="year"></span> Kathryn Yi</span><span>Made with curiosity.</span></footer>
-<dialog id="project-dialog"><button id="dialog-close" class="close" aria-label="Close">×</button><div id="dialog-media" class="media"></div><div class="dialog-content"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description" class="description"></p><div class="meta"><div><small>ROLE</small><p id="dialog-role"></p></div><div><small>TOOLS</small><p id="dialog-tools"></p></div></div><div id="dialog-gallery" class="gallery"></div></div></dialog></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111820">
+  <meta name="description" content="Kathryn Yi — multidisciplinary visual creative exploring 3D, visual storytelling, and creative technology.">
+  <title>Kathryn Yi — Selected Work</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="header">
+    <a class="mark" href="#" aria-label="Kathryn Yi home">KY<span>✳</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#moving-image">Moving Image</a>
+      <a href="#experiments">Experiments</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-top"><span>INDEPENDENTLY CURIOUS</span><span>MADISON, WISCONSIN · 2026</span></div>
+      <h1>Images, ideas<br> & things <em>in between.</em></h1>
+      <div class="intro-bottom">
+        <p>A multidisciplinary visual creative exploring 3D, visual storytelling, and creative technology.</p>
+        <a class="underlink" href="#work">SCROLL TO EXPLORE <span>↓</span></a>
+      </div>
+      <div class="scribble" aria-hidden="true">a work<br>in progress ↗</div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="section-intro">
+        <div><span class="kicker">01 / SELECTED WORK</span><h2>Things I've been<br><em>thinking through.</em></h2></div>
+        <p>Projects, visual explorations, and process fragments. Some polished, some still a little unresolved.</p>
+      </div>
+      <div class="work-grid" id="work-grid"></div>
+    </section>
+
+    <section class="moving section" id="moving-image">
+      <div class="section-intro compact">
+        <div><span class="kicker">02 / MOVING IMAGE</span><h2>In motion, <em>in space.</em></h2></div>
+        <p>3D, animation, visual effects, and experiments with time, light, and form.</p>
+      </div>
+      <div class="reel-panel">
+        <div class="reel-symbol" aria-hidden="true">▶</div>
+        <div><span class="kicker">REEL / 2025–26</span><h3>Animation & VFX Reel</h3><p>Replace this panel with your reel link or a video file.</p></div>
+        <a class="circle-link" href="#" id="reel-link" aria-label="Open reel">↗</a>
+      </div>
+    </section>
+
+    <section class="experiments section" id="experiments">
+      <div class="section-intro compact">
+        <div><span class="kicker">03 / EXPERIMENTS & PROCESS</span><h2>Curiosity is a <em>practice.</em></h2></div>
+        <p>Creative technology, AI-assisted workflows, process documentation, and tests that lead somewhere unexpected.</p>
+      </div>
+      <div class="experiment-note">
+        <span class="note-index">FIELD NOTES / 001</span>
+        <p>Not just the final image. The questions, iterations, tools, and decisions that made it.</p>
+        <span class="note-stamp">MAKE<br>OBSERVE<br>REPEAT</span>
+      </div>
+    </section>
+
+    <section class="studies section" id="studies">
+      <div class="studies-heading"><span class="kicker">04 / SELECTED STUDIES</span><h2>Small things, <em>kept.</em></h2><p>A small collection of drawings, fine art, photography, and visual research.</p></div>
+      <div class="study-strip" id="study-strip">
+        <div class="study-placeholder">DRAWING / STUDY 01</div>
+        <div class="study-placeholder">PHOTO / STUDY 02</div>
+        <div class="study-placeholder">VISUAL NOTES / 03</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <span class="kicker">05 / A LITTLE CONTEXT</span>
+      <div class="about-layout">
+        <h2>Visual thinker.<br><em>Curious maker.</em></h2>
+        <div class="about-copy">
+          <p>I’m Kathryn, a multidisciplinary creative with a background in 3D animation and visual effects. I’m interested in how images, systems, and emerging tools can help ideas take shape.</p>
+          <p>My practice moves between visual storytelling, digital production, experimentation, and creative technology. This portfolio is a selection of work and the thinking behind it.</p>
+          <div class="contact-links">
+            <span>Madison, Wisconsin</span>
+            <a href="mailto:hello@example.com" id="email-link">Email ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <button id="copy-email" type="button">Copy email</button>
+          </div>
+          <a class="resume-link" href="#" id="resume-link">Résumé / CV ↗ <small>(add your PDF link)</small></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>KATHRYN YI © <span id="year"></span></span><span>MADE WITH CURIOSITY, NOT A TEMPLATE.</span><a href="#top">BACK TO TOP ↑</a></footer>
+
+  <dialog id="project-dialog" class="project-dialog">
+    <button class="dialog-close" id="dialog-close" aria-label="Close project">×</button>
+    <div id="dialog-cover" class="dialog-cover"></div>
+    <div class="dialog-body">
+      <span class="kicker" id="dialog-kicker"></span>
+      <h2 id="dialog-title"></h2>
+      <p id="dialog-description"></p>
+      <div class="detail-columns"><div><span class="kicker">MY ROLE</span><p id="dialog-role"></p></div><div><span class="kicker">TOOLS / NOTES</span><p id="dialog-tools"></p></div></div>
+      <div id="dialog-gallery" class="dialog-gallery"></div>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -1,15 +1,7 @@
-# Kathryn Yi — Creative Portfolio
+# Kathryn Yi — Portfolio
 
-Minimal dark portfolio starter for 3D, visual effects, digital production, and creative technology.
+A custom portfolio starter. Edit `script.js` to update projects. Add media to `assets/` and use relative paths such as `assets/project.jpg`.
 
-## Publish with GitHub Pages
-1. Upload all files and folders in this project to your GitHub repository.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Select branch `main` and folder `/ (root)`, then save.
-5. Wait a minute or two for the published URL to appear.
+Publish with GitHub Pages: Settings → Pages → Deploy from a branch → `main` → `/(root)`.
 
-## Add projects
-Edit `script.js` and update the `projects` array. Add image/video files in `assets/`, then set paths such as `image: "assets/my-project.jpg"` or `video: "assets/my-project.mp4"`. For large reels, consider embedding a video hosted on Vimeo or YouTube rather than uploading a large file.
-
-Replace `hello@example.com` in `index.html` with the email address you want visitors to use.
+Before sharing widely, replace `hello@example.com`, add a real résumé link, and replace placeholder projects with work you are allowed to share publicly.
